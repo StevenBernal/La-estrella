@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <title>Lavanderia la estrellita</title>
+
+
+</head>
+
+
+<style>
+    #logo {
+        width: 80px;
+        margin-left: 30%;
+    }
+    
+    #titulo {
+        width: 290px;
+        height: 60px;
+        margin-left: 40px;
+    }
+    
+    #nav-mobile {
+        margin-left: 80px;
+    }
+    
+    .nav {
+        width: 300px;
+        text-align: center;
+    }
+    
+    #nave {
+        border: 2px solid white;
+    }
+    
+    .imagen {
+        height: 150px;
+    }
+    
+    .imagen2 {
+        height: 45px;
+    }
+    
+    #boton {
+        margin-left: 1200px;
+        margin-top: -100px;
+        background-color: #2962ff;
+    }
+    
+    #boton:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    #boton2 {
+        margin-top: 20px;
+        margin-left: 45%;
+        background-color: #2962ff;
+    }
+    
+    #boton2:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    #inicio {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -20px;
+        background-color: #314a80;
+    }
+    
+    #empleados2 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 40px;
+    }
+    
+    #empleados3 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 30px;
+    }
+    
+    #inp {
+        background-color: #82b1ff;
+        width: 550px;
+        text-align: center;
+        margin-left: 29%;
+    }
+    
+    #emp {
+        margin-top: 50px;
+    }
+    
+    .tam {
+        font-size: 20px;
+        margin-top: 22px;
+    }
+    
+    .fot {
+        width: 280px;
+        height: 130px;
+    }
+    
+    .carousel .carousel-item {
+        width: 400px !important;
+        height: 200px;
+        margin-top: -90px;
+        padding-top: 5%;
+    }
+    
+    #pie {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .container {
+        text-align: center;
+    }
+    
+    #inicio1 {
+        border-radius: 8%;
+        top: 10%;
+        left: -31%;
+        position: relative;
+    }
+    
+    #inicio2 {
+        border-radius: 8%;
+        top: 20%;
+        left: -31%;
+        position: relative;
+    }
+    
+    #inicio3 {
+        border-radius: 8%;
+        top: 25%;
+        left: 28%;
+        position: relative;
+    }
+    
+    #inicio4 {
+        border-radius: 8%;
+        top: 183px;
+        left: -11%;
+        position: relative;
+    }
+    
+    #inicio5 {
+        border-radius: 8%;
+        top: 186px;
+        left: -11%;
+        position: relative;
+    }
+    
+    #tabla {
+        width: 100%;
+    }
+    
+    .fila1 {
+        width: 50%;
+    }
+    
+    .fila2 {
+        width: 17%;
+    }
+    
+    .fila3 {
+        width: 17%;
+        padding-top: 95px;
+    }
+    
+    #prenda {
+        margin-left: 30%;
+    }
+    
+    .parra {
+        border: 1px solid black;
+        text-align: center;
+    }
+    
+    .parra:hover {
+        background-color: #82b1ff;
+        color: white;
+    }
+</style>
+
+<body>
+
+    <div>
+        <!-- inicio Header-->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper grey">
+                    <img id="logo" class="responsive-img" src="../lavanderia/lavanderia admn (1)/imagenes codigo/Logo.png">
+                    <img id="titulo" class="responsive-img" src="../lavanderia/lavanderia admn (1)/imagenes codigo/titulo.png">
+                </div>
+            </nav>
+        </div>
+        <!-- final Header-->
+
+        <!--Menu de navegacion-->
+        <div class="navbar-fixed">
+            <nav>
+                <div id="nave" class="nav-wrapper blue accent-4">
+
+                    <ul id="nav-mobile" class="">
+                        <li class="nav"><a href="../lavanderia/inicio.html">INICIO</a></li>
+                        <li class="nav"><a href="../lavanderia/servicio.html">SERVICIO</a></li>
+                        <li class="nav"><a href="../lavanderia/lavanderia admn (1)/index.html">EMPLEADOS</a></li>
+                        <li class="nav"><a href="../lavanderia/horario.html">HORARIOS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Final Menu de navegacion-->
+
+        <!-- inicio carrusel-->
+
+        <div class="carousel" id="demo-carousel" width="300px">
+            <a class="carousel-item" href="#one!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/1.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/3.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/4.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/5.jpg"></a>
+        </div>
+        <!-- Final carrusel-->
+
+        <!-- Ingreso-->
+
+        <div>
+            <h4 id="inicio"><b>SERVICIO</b></h4>
+        </div>
+        <br><br><br>
+
+        <p>
+            <h4 align="center">Ropa</h4>
+        </p>
+        <div class="container">
+            <table id="tabla">
+                <tr>
+                    <th class="fila1"> <img id="prenda" src="lavanderia admn (1)/imagenes codigo/serv1.png" width="200px" height="200px" alt=""></th>
+                    <th class="fila2">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Cantidad</label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="parra">1 Prenda</p>
+                                    <p class="parra">2 Prenda</p>
+                                    <p class="parra">3 Prenda</p>
+                                    <p class="parra">5 Prenda</p>
+                                    <p class="parra">6 Prenda</p>
+                                </div>
+                    </th>
+
+                    <th class="fila3">
+                        <div>
+                            <p class="parra">$2.000</p>
+                            <p class="parra">$6.000</p>
+                            <p class="parra">$9.000</p>
+                            <p class="parra">$15.000</p>
+                            <p class="parra">$23.000</p>
+
+                        </div>
+                    </th>
+                    <th class="fila3">
+                        <div>
+                            <p class="parra">3 Dias</p>
+                            <p class="parra">5 Dias</p>
+                            <p class="parra">8 Dias</p>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+            </div>
+            <div class="container">
+                <table id="tabla">
+                    <tr>
+                        <th class="fila1"> <img id="prenda" src="lavanderia admn (1)/imagenes codigo/serv3.png" width="200px" height="200px" alt=""></th>
+                        <th class="fila2">
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="icon_prefix" type="text" class="validate">
+                                            <label for="icon_prefix">Cantidad</label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="parra">1 Prenda</p>
+                                        <p class="parra">2 Prenda</p>
+                                        <p class="parra">3 Prenda</p>
+                                        <p class="parra">5 Prenda</p>
+                                        <p class="parra">6 Prenda</p>
+                                    </div>
+                        </th>
+
+                        <th class="fila3">
+                            <div>
+                                <p class="parra">$2.000</p>
+                                <p class="parra">$6.000</p>
+                                <p class="parra">$9.000</p>
+                                <p class="parra">$15.000</p>
+                                <p class="parra">$23.000</p>
+
+                            </div>
+                        </th>
+                        <th class="fila3">
+                            <div>
+                                <p class="parra">3 Dias</p>
+                                <p class="parra">5 Dias</p>
+                                <p class="parra">8 Dias</p>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+                </div>
+                <div class="container">
+                    <table id="tabla">
+                        <tr>
+                            <th class="fila1"> <img id="prenda" src="lavanderia admn (1)/imagenes codigo/serv2.png" width="200px" height="200px" alt=""></th>
+                            <th class="fila2">
+                                <div class="row">
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <i class="material-icons prefix">account_circle</i>
+                                                <input id="icon_prefix" type="text" class="validate">
+                                                <label for="icon_prefix">Cantidad</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p class="parra">1 Prenda</p>
+                                            <p class="parra">2 Prenda</p>
+                                            <p class="parra">3 Prenda</p>
+                                            <p class="parra">5 Prenda</p>
+                                            <p class="parra">6 Prenda</p>
+                                        </div>
+                            </th>
+
+                            <th class="fila3">
+                                <div>
+                                    <p class="parra">$2.000</p>
+                                    <p class="parra">$6.000</p>
+                                    <p class="parra">$9.000</p>
+                                    <p class="parra">$15.000</p>
+                                    <p class="parra">$23.000</p>
+
+                                </div>
+                            </th>
+                            <th class="fila3">
+                                <div>
+                                    <p class="parra">3 Dias</p>
+                                    <p class="parra">5 Dias</p>
+                                    <p class="parra">8 Dias</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </table>
+                    </div>
+                    <div class="container">
+                        <table id="tabla">
+                            <tr>
+                                <th class="fila2">
+                                    <div class="row">
+                                        <form class="col s12">
+                                            <div class="row">
+                                                <div class="input-field col s12">
+                                                    <i class="material-icons prefix">account_circle</i>
+                                                    <input id="icon_prefix" type="text" class="validate">
+                                                    <label for="icon_prefix">Cantidad</label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="parra">1 Prenda</p>
+                                                <p class="parra">2 Prenda</p>
+                                                <p class="parra">3 Prenda</p>
+                                                <p class="parra">5 Prenda</p>
+                                                <p class="parra">6 Prenda</p>
+                                            </div>
+                                </th>
+
+                                <th class="fila3">
+                                    <div>
+                                        <p class="parra">$2.000</p>
+                                        <p class="parra">$6.000</p>
+                                        <p class="parra">$9.000</p>
+                                        <p class="parra">$15.000</p>
+                                        <p class="parra">$23.000</p>
+
+                                    </div>
+                                </th>
+                            </tr>
+                        </table>
+                        </div>
+
+                        <footer id="pie" class="page-footer grey">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col l6 s12">
+                                        <img class="fot" src="../lavanderia/lavanderia admn (1)/imagenes codigo/titulo.png" alt="">
+                                        <img class="fot" src="../lavanderia/lavanderia admn (1)/imagenes codigo/Logo.png" alt="">
+                                    </div>
+                                    <div class="col l4 offset-l2 s12">
+                                        <h6 class="tam white-text">Dirección Calle 86b# 55 - 29,Bogota</h6>
+                                        <ul>
+                                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">Siganos en:</a></li>
+                                            <li class="tam">
+                                                <a class="grey-text text-lighten-3" href="#!"><img class="imagen2" src="../lavanderia/lavanderia admn (1)/imagenes codigo/facebook.png" alt=""><img class="imagen2" src="../lavanderia/lavanderia admn (1)/imagenes codigo/insta.png" alt=""><img class="imagen2"
+                                                        src="../lavanderia/lavanderia admn (1)/imagenes codigo/twitter.png" alt=""></a>
+                                            </li>
+                                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">Linea de domicilios</a></li>
+                                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">5874569 - 3116637898s </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+
+                        <script>
+                            $(document).ready(function() {
+                                $('#demo-carousel').carousel();
+                            });
+                        </script>
+</body>
+
+</html>

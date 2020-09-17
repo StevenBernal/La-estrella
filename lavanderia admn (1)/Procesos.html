@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Procesos</title>
+
+    <style>
+        #logo {
+            width: 80px;
+
+            margin-left: 30%;
+        }
+
+        #titulo {
+            width: 290px;
+            height: 60px;
+            margin-left: 40px;
+
+        }
+
+        .tam {
+            font-size: 20px;
+            margin-top: 22px;
+        }
+
+        #emp {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #emp1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: -80px;
+
+        }
+
+        #icono {
+            margin-left: 75%;
+            width: 100px;
+            cursor: pointer;
+        }
+
+        #botones {
+            width: 180px;
+            height: 29px;
+            margin-left: 83%;
+            margin-top: -200px;
+            background-color: #82b1ff;
+        }
+
+        #botones:hover {
+            background-color: white;
+            color: black;
+        }
+
+        #botones2 {
+            width: 180px;
+            height: 29px;
+            margin-left: 83%;
+            margin-top: -160px;
+            background-color: #82b1ff;
+        }
+
+        #botones2:hover {
+            background-color: white;
+            color: black;
+        }
+
+        #boton2 {
+            margin-left: 45%;
+            margin-top: -250px;
+            width: 130px;
+            height: 29px;
+            background-color: #82b1ff;
+        }
+
+        #boton2:hover {
+            background-color: white;
+            color: black;
+        }
+
+
+        .fot {
+            width: 280px;
+            height: 130px;
+        }
+
+        .imagen2 {
+            height: 45px;
+        }
+
+        #pie {
+            width: 100%;
+            height: 350px;
+        }
+
+        #inp {
+            width: 50px;
+            border: 1px solid black;
+            margin-left: -140%;
+            text-align: center;
+            cursor: pointer;
+
+        }
+
+        #pro {
+            margin-left: 30%;
+            color: blue;
+        }
+        #pro1{
+            margin-top: 60px;
+            margin-left: 35%;
+            color: blue;
+        }
+        #reg{
+            
+            margin-top: -60px;
+            margin-left: 60%;
+            width: 130px;
+            height: 29px;
+            background-color: #82b1ff;
+        }
+        #reg:hover {
+            background-color: white;
+            color: black;
+        }
+        #prenda{
+            margin-bottom: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <!-- inicio Header-->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper grey">
+                    <img id="logo" class="responsive-img" src="imagenes codigo/Logo.png">
+                    <img id="titulo" class="responsive-img" src="imagenes codigo/titulo.png">
+                </div>
+            </nav>
+        </div>
+        <!-- final Header-->
+
+        <!--Titulo-->
+        <div>
+            <H3 id="emp"><b>Empleados</b></H3>
+        </div>
+        <!--Titulo-->
+
+        <!--Peril-->
+        <div id="perfil">
+            <img id="icono" src="imagenes codigo/perfil.png" alt="">
+            <ul>
+                <li> <a id="botones" class="waves-effect waves-light btn" href="index.html">Cerrar Sesion</a></li>
+                <li> <a id="botones2" class="waves-effect waves-light btn">Editar perfil</a></li>
+            </ul>
+            <a id="boton2" class="waves-effect waves-light btn" href="Actividades.html">Actividades</a>
+        </div>
+        <!--Peril-->
+
+        <!--Procesos-->
+        <div>
+            <H4 id="emp1">Procesos de lavado</H4>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <h5 id="pro">Ropa en proceso de lavado</h5>
+                    </td>
+                    <td><input id="inp" type="number" value="9"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5 id="pro">Ropa en proceso de secado</h5>
+                    </td>
+                    <td><input id="inp" type="number" value="7"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5 id="pro">Ropa en proceso de entrega</h5>
+                    </td>
+                    <td><input id="inp" type="number" value="4"></td>
+                </tr>
+            </table>
+
+            <div id="prenda">
+                <h6 id="pro1">Registrar prenda nueva</h6>
+                <a id="reg" class="waves-effect waves-light btn" href="Registro prendas nuevas.html">Registrar</a>
+            </div>
+        </div>
+        <!--Procesos-->
+
+
+
+
+
+
+
+
+
+        <!--Footer-->
+        <footer id="pie" class="page-footer grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <img class="fot" src="imagenes codigo/titulo.png" alt="">
+                        <img class="fot" src="imagenes codigo/Logo.png" alt="">
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h6 class="tam white-text">Dirección Calle 86b# 55 - 29,Bogota</h6>
+                        <ul>
+                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">Siganos en:</a></li>
+                            <li class="tam"><a class="grey-text text-lighten-3" href="#!"><img class="imagen2"
+                                        src="imagenes codigo/facebook.png" alt=""><img class="imagen2"
+                                        src="imagenes codigo/insta.png" alt=""><img class="imagen2"
+                                        src="imagenes codigo/twitter.png" alt=""></a></li>
+                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">Linea de domicilios</a></li>
+                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">5874569 - 3116637898s </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

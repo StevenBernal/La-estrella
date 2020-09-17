@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <title>Lavanderia la estrellita</title>
+
+
+</head>
+
+
+<style>
+    #logo {
+        width: 80px;
+        margin-left: 30%;
+    }
+    
+    #titulo {
+        width: 290px;
+        height: 60px;
+        margin-left: 40px;
+    }
+    
+    #nav-mobile {
+        margin-left: 80px;
+    }
+    
+    .nav {
+        width: 300px;
+        text-align: center;
+    }
+    
+    #nave {
+        border: 2px solid white;
+    }
+    
+    .imagen {
+        height: 150px;
+    }
+    
+    .imagen2 {
+        height: 45px;
+    }
+    
+    #boton {
+        margin-left: 1200px;
+        margin-top: -100px;
+        background-color: #2962ff;
+    }
+    
+    #boton:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    #boton2 {
+        margin-top: 20px;
+        margin-left: 45%;
+        background-color: #2962ff;
+    }
+    
+    #boton2:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    #empleados {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -20px;
+    }
+    
+    #empleados2 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 40px;
+    }
+    
+    #empleados3 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 30px;
+    }
+    
+    #inp {
+        background-color: #82b1ff;
+        width: 550px;
+        text-align: center;
+        margin-left: 29%;
+    }
+    
+    #emp {
+        margin-top: 50px;
+    }
+    
+    .tam {
+        font-size: 20px;
+        margin-top: 22px;
+    }
+    
+    .fot {
+        width: 280px;
+        height: 130px;
+    }
+    
+    .carousel .carousel-item {
+        width: 400px !important;
+        height: 200px;
+        margin-top: -90px;
+    }
+    
+    #pie {
+        width: 100%;
+        height: 350px;
+    }
+</style>
+
+<body>
+
+    <div>
+        <!-- inicio Header-->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper grey">
+                    <img id="logo" class="responsive-img" src="../lavanderia/lavanderia admn (1)/imagenes codigo/Logo.png">
+                    <img id="titulo" class="responsive-img" src="../lavanderia/lavanderia admn (1)/imagenes codigo/titulo.png">
+                </div>
+            </nav>
+        </div>
+        <!-- final Header-->
+
+        <!--Menu de navegacion-->
+        <div class="navbar-fixed">
+            <nav>
+                <div id="nave" class="nav-wrapper blue accent-4">
+
+                    <ul id="nav-mobile" class="">
+                        <li class="nav"><a href="../lavanderia/inicio.html">INICIO</a></li>
+                        <li class="nav"><a href="../lavanderia/servicio.html">SERVICIO</a></li>
+                        <li class="nav"><a href="../lavanderia/lavanderia admn (1)/index.html">EMPLEADOS</a></li>
+                        <li class="nav"><a href="../lavanderia/formulario.html">HORARIOS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Final Menu de navegacion-->
+
+        <!-- inicio carrusel-->
+
+        <div class="carousel" id="demo-carousel" width="300px">
+            <a class="carousel-item" href="#one!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/1.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/3.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/4.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="../lavanderia/lavanderia admn (1)/imagenes codigo/5.jpg"></a>
+        </div>
+        <!-- Final carrusel-->
+
+        <!-- Ingreso-->
+
+        <div>
+            <a id="boton" class="waves-effect waves-light btn ">Regresar</a>
+        </div>
+
+        <div>
+            <h3 id="empleados"><b>FORMULARIO PQRSF</b></h3>
+        </div>
+
+        <div class="contenedor-formulario">
+            <div class="wrap">
+                <form action="" class="formulario" name="formulario_registro" method="get">
+                    <div>
+                        <div class="input-group radio">
+                            <input type="radio" name="reclamo" id="hombre" value="Hombre">
+                            <label for="Peticion">Peticion</label>
+                            <input type="radio" name="reclamo" id="mujer" value="Mujer">
+                            <label for="Queja">Queja</label>
+                            <input type="radio" name="reclamo" id="mujer" value="Mujer">
+                            <label for="Reclamo">Reclamo</label>
+                            <input type="radio" name="reclamo" id="mujer" value="Mujer">
+                            <label for="Sugerencias">Sugerencias</label>
+                            <input type="radio" name="reclamo" id="mujer" value="Mujer">
+                            <label for="Felicitaciones">Felicitaciones</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="nombre" name="nombre">
+                            <label class="label" for="nombre">Nombre:</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="correo" name="correo">
+                            <label class="label" for="correo">Correo:</label>
+                        </div>
+                        <div class="input-group checkbox">
+                            <input type="checkbox" name="terminos" id="terminos" value="true">
+                            <label for="terminos">Acepto los Terminos y Condiciones</label>
+                        </div>
+
+                        <input type="submit" id="btn-submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer id="pie" class="page-footer grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <img class="fot" src="../lavanderia/lavanderia admn (1)/imagenes codigo/titulo.png" alt="">
+                        <img class="fot" src="../lavanderia/lavanderia admn (1)/imagenes codigo/Logo.png" alt="">
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h6 class="tam white-text">Dirección Calle 86b# 55 - 29,Bogota</h6>
+                        <ul>
+                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">Siganos en:</a></li>
+                            <li class="tam">
+                                <a class="grey-text text-lighten-3" href="#!"><img class="imagen2" src="imagenes codigo/facebook.png" alt=""><img class="imagen2" src="imagenes codigo/insta.png" alt=""><img class="imagen2" src="imagenes codigo/twitter.png" alt=""></a>
+                            </li>
+                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">Linea de domicilios</a></li>
+                            <li class="tam"><a class="grey-text text-lighten-3" href="#!">5874569 - 3116637898s </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+
+
+
+    </div>
+
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('#demo-carousel').carousel();
+        });
+    </script>
+
+</body>
+
+</html>
